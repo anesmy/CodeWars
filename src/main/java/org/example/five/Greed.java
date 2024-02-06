@@ -18,8 +18,4 @@ public class Greed {
         finalScore += score[0] % 3 * 100;
         return finalScore;
     }
-
-    public static void main(String[] args) {
-        System.out.println(greedy(new int[]{5, 1, 3, 4, 1}));
-    }
 }
